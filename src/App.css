@@ -1,8 +1,62 @@
+.body{
+  
+  font-family: "Roboto", sans-serif;
+}
+
 .gradient-bg-shadow {
     box-shadow: 
     8px 8px 16px 6px hsl(0, 0%, 100%), /* Sombra blanca */
       8px 8px 16px 6px hsla(217, 51%, 52%, 0.11); /* Sombra negra */
   }
   
+  .container {
+    position: relative;
+    width: 100vh; 
+    height: 100vh; /* Ajusta según sea necesario */
+    overflow: hidden;
+    margin:0 auto;
+  }
+  
+  .clip-path-element {
+    margin:0 auto;
+    position: absolute;
+    top: 0;
+    
+    width: 365px;
+    height: 260px;
+    clip-path: polygon(0 49%, 0 0, 100% 0, 99% 48%, 46% 81%);
+   
+    border-radius: 80%;
+    border-bottom-right-radius: 80%;
+    background-color: rgba(9, 243, 56, 0.971); /* Color del fondo */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px; /* Ajusta según sea necesario */
+  }
+  
+  /* Añadir esquinas redondeadas al contenido */
+  .content {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .container-image img{
+    /* Layout Properties */
+    
+   top: -272px;
+   left: -108px;
+   width: 577px;
+   height: 577px;
+   clip-path: polygon(0 49%, 0 0, 100% 0, 99% 48%, 49% 97%);
+   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
  
-
+   
+   /* UI Properties */
+   
+   box-shadow: inset 0px 3px 16px #1C3F7776;
+   border-radius: 64px;
+   opacity: 1;
+     }  

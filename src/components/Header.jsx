@@ -2,12 +2,12 @@ export default function Header() {
   return (
     <>
       <header className=" relative overflow-hidden h-[305px] items-end  box-border">
-        <div className=" flex justify-center  items-center -mt-10 w-full  h-full   rounded-[64px] border-2">
+        <div className="continer-image flex justify-center  items-center -mt-10 w-full  h-full   rounded-[64px] border-2">
           <img
             src="/public/images/shutterstock_2138770023@2x.png"
             alt="images claendario 
             "
-            className="w-full h-full object-cover relative  "
+            className="w-full h-full object-cover  "
           />
         </div>
 

@@ -6,12 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      transformOrigin:{
-        'matrix':['0', '-1', '1', '0', '0', '0'],
-      }, backgroundImage: {
-        'hero-pattern': "url('/images/shutterstock_2138770023@2x.png')",
-        
-      }
+      
+     fontFamilyt:{
+      'roboto-thin':["Roboto", 'sans-serif'],
+      'roboto-light': ["Roboto", 'sans-serif'],
+      'roboto-regular': ["Roboto", 'sans-serif'],
+      'roboto-medium': ["Roboto", 'sans-serif'],
+      'roboto-bold': ["Roboto", 'sans-serif'],
+      'roboto-black': ["Roboto", 'sans-serif'],
+     }
     },
   },
   plugins: [],
