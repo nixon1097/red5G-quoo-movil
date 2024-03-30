@@ -8,7 +8,7 @@ export const InputRanger = ({ info, ranger, setRanger }) => {
           <h4 className="text-[12px] w-[248px] text-left float-none text-[#506698]  font-normal">
             {title}
           </h4>
-          <p className="w-[248px] font-semibold  text-[#363C52] text-start text-[16px]">
+          <p className="w-[248px] font-semibold  text-[#363C52] text-start text-[16px] aanimate-fade-right animate-duration-[600ms] animate-delay-[1200ms] animate-ease-intransform transition-transform duration-300 ease-in-out ">
             {values}
           </p>
         </div>
@@ -19,7 +19,7 @@ export const InputRanger = ({ info, ranger, setRanger }) => {
           step={step}
           value={ranger}
           onChange={(e) => setRanger(e.target.value)}
-          className="w-[90%] "
+          className="w-[90%] animate-fade-right animate-duration-[600ms] animate-delay-[1200ms] animate-ease-in "
         />
       </div>
     </>

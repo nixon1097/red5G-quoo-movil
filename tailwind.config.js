@@ -6,16 +6,17 @@ export default {
   ],
   theme: {
     extend: {
-      
-     fontFamilyt:{
-      'roboto-thin':["Roboto", 'sans-serif'],
-      'roboto-light': ["Roboto", 'sans-serif'],
-      'roboto-regular': ["Roboto", 'sans-serif'],
-      'roboto-medium': ["Roboto", 'sans-serif'],
-      'roboto-bold': ["Roboto", 'sans-serif'],
-      'roboto-black': ["Roboto", 'sans-serif'],
-     }
+      fontFamily: {
+        'roboto-thin': ["Roboto", 'sans-serif'],
+        'roboto-light': ["Roboto", 'sans-serif'],
+        'roboto-regular': ["Roboto", 'sans-serif'],
+        'roboto-medium': ["Roboto", 'sans-serif'],
+        'roboto-bold': ["Roboto", 'sans-serif'],
+        'roboto-black': ["Roboto", 'sans-serif'],
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('tailwindcss-animated')
+  ],
+};

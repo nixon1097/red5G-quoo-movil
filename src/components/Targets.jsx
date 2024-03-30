@@ -23,7 +23,7 @@ export default function Targets({ info, infos }) {
           <article
             className="mb-8 w-[320px] h-[172px] rounded-[40px]    mx-auto    gradient-text-shadow
  shadow-[8px_8px_16px_6px] shadow-[#4676C31C] drop-shadow-[-8px_-8px_-16px_6px_rgba(255, 255, 255, 1)]
- shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-[#F8F9FF] bg-opacity-[100%]  box-borderlex flex-col justify-between text-center gap-[1px]  p-5 tracking-wide  gradient-bg-shadow leading-tight "
+ shadow-[8px_8px_16px_6px] shadow-[#4676C31C] 0 bg-[#F8F9FF] bg-opacity-[100%]  box-borderlex flex-col justify-between text-center gap-[1px]  p-5 tracking-wide  gradient-bg-shadow leading-tight   animate-fade-down animate-once  animate-duration-1000  animate-delay-[3000ms] transition-all"
             key={info.id}
             onClick={() => abrirModal(info.id)}
             ref={inputRef}
