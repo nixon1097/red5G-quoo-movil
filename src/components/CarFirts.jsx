@@ -6,11 +6,7 @@ export const CarFirts = () => {
           className="mx-auto mb-[28px]  rounded-full  w-[144px] h-[144px] grid place-content-center justify-center items-center box-border gradient-bg-shadow drop-shadow-[-8px_-8px_-16px_6px_rgba(255, 255, 255, 1)]
   shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-[#FAFBFF] to-20% bg-opacity-100 "
         >
-          <img
-            src="/public/logo.svg"
-            alt="logo imagen"
-            className="drop-shadow-md "
-          />
+          <img src="./logo.svg" alt="logo imagen" className="drop-shadow-md " />
         </div>
         <h3 className="w-[320px] h-[48px] mx-auto text-[#363C52] ">
           Tu crédito en
