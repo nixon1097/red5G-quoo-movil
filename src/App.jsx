@@ -3,9 +3,6 @@ import { useInfos } from "./hooks/useInfos";
 import Header from "./components/Header";
 import Targets from "./components/Targets";
 import { CarFirts } from "./components/CarFirts";
-// import Modal from "./components/Modal";
-import Modals from "./components/Modals";
-// import { CardTarget } from "./components/CardTarget";
 
 function App() {
   const { infons, infos } = useInfos();
@@ -18,8 +15,6 @@ function App() {
         {/* logo  */}
         <CarFirts />
         <Targets info={infons} infos={infos} />
-        {/* <Modal info={infons[0]} /> */}
-        <Modals />
       </main>
     </>
   );

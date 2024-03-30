@@ -1,7 +1,7 @@
 export const CarFirts = () => {
   return (
     <>
-      <div className=" text-4xl font-bold">
+      <div className=" text-4xl font-bold mt-[26px]">
         <div
           className="mx-auto mb-[28px]  rounded-full  w-[144px] h-[144px] grid place-content-center justify-center items-center box-border gradient-bg-shadow drop-shadow-[-8px_-8px_-16px_6px_rgba(255, 255, 255, 1)]
   shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-[#FAFBFF] to-20% bg-opacity-100 "

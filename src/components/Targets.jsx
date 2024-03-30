@@ -1,9 +1,11 @@
 import { useRef, useState } from "react";
 import { CardTarget } from "./CardTarget";
 import ModalRanger from "./ModalRanger";
+import ModalForm from "./ModalForm";
 
 export default function Targets({ info, infos }) {
   const [modalVisible, setModalVisible] = useState(false);
+  const [openModalForm, setOpenModalForm] = useState(false);
   const [modalContent, setModalContent] = useState({});
   const hasInfo = info.length > 0;
   const inputRef = useRef();
@@ -13,9 +15,7 @@ export default function Targets({ info, infos }) {
     setModalContent({ tarjetaSeleccionada });
     setModalVisible(true);
   };
-  const cerrarModal = () => {
-    setModalVisible(false);
-  };
+
   return (
     <>
       {hasInfo ? (
@@ -40,8 +40,14 @@ shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-tl from-[#fafbff] f
         </section>
       )}
       {modalVisible && (
-        <ModalRanger contenido={modalContent} onClose={cerrarModal} />
+        <ModalRanger
+          contenido={modalContent}
+          setModalVisible={setModalVisible}
+          setOpenModalForm={setOpenModalForm}
+          setModalContent={setModalContent}
+        />
       )}
+      {openModalForm && <ModalForm contenido={modalContent} />}
     </>
   );
 }

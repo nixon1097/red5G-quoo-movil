@@ -1,45 +1,43 @@
 export default function Header() {
   return (
     <>
-      <header className=" relative overflow-hidden h-[305px] items-end  box-border">
-        <div className="continer-image flex justify-center  items-center -mt-10 w-full  h-full   rounded-[64px] border-2">
+      <header className=" relative">
+        <div className=" mb-5">
           <img
-            src="/public/images/shutterstock_2138770023@2x.png"
-            alt="images claendario 
-            "
-            className="w-full h-full object-cover  "
+            src="./images/fondoheader.gif"
+            alt="Imagen Superpuesta"
+            className="w-full h-full object-cover -mt-4 drop-shadow-2xl opacity-90 "
           />
         </div>
-
         {/* lineas */}
-        <div className="rotate-45 top-20 -left-10 w-36 h-72  gap-3 flex flex-col justify-center items-start text-left absolute transform matrix-[0,-1,1,0,0,0] drop-shadow-xl ">
+        <div className="rotate-45 top-24 -left-12 w-[160px] h-[290px]  gap-3 flex flex-col justify-center items-start text-left absolute  drop-shadow-xl  overflow-hidden">
           {" "}
           <div
-            className="line h-4  rounded-xl w-[100%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[100%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
           <div
-            className="line h-4  rounded-xl w-[85%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[85%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
           <div
-            className="line h-4  rounded-xl w-[75%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[75%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
         </div>
-        <div className="-rotate-45 top-20 -right-10 w-36 h-72    gap-2 flex flex-col justify-center items-end text-left absolute">
+        <div className="-rotate-45 top-24 -right-12  h-[290px] w-[160px]    gap-3 flex flex-col justify-center items-end text-left drop-shadow-xl absolute">
           {" "}
           <div
-            className="line h-4  rounded-xl w-[100%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[100%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
           <div
-            className="line h-4  rounded-xl w-[85%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[85%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
           <div
-            className="line h-4  rounded-xl w-[75%]   border-[#FAFBFF]
-          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
+            className="line h-6  rounded-xl w-[75%]   border-[#FAFBFF]
+            shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
         </div>
       </header>
