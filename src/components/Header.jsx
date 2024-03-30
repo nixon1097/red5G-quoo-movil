@@ -25,7 +25,7 @@ export default function Header() {
             shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-gradient-to-r from-[#EBF0FF]  via-[#FFFFFF]  to-[#FAFBFF] to-20% opacity-75"
           ></div>{" "}
         </div>
-        <div className="-rotate-45 top-24 -right-12  h-[290px] w-[160px]    gap-3 flex flex-col justify-center items-end text-left drop-shadow-xl absolute animate-fade animate-once animate-duration-1000 animate-delay-[2500ms] overflow-hidden ">
+        <div className="-rotate-45 top-24 -right-12  h-[290px] w-[160px]    gap-3 flex flex-col justify-center items-end text-left drop-shadow-xl absolute animate-fade animate-once animate-duration-1000 animate-delay-[2500ms] overflow-hidden  ">
           {" "}
           <div
             className="line h-6  rounded-xl w-[100%]   border-[#FAFBFF]

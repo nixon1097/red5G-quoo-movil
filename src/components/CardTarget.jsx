@@ -1,12 +1,12 @@
 export const CardTarget = ({ info }) => {
   return (
     <>
-      <article className="mx-auto px-3 ">
+      <article className="mx-auto px-3 leading-[1.6] ">
         <div className="flex items-center justify-center  box-border overflow-hidden ">
           <img
             src={info.iconUrl}
             alt="icons images "
-            className="w-[76px] h-auto object-cover  "
+            className="w-[78px] h-auto object-cover  "
           />
           <h3 className=" tracking-tight text-start text-[20px] font-bold  ">
             {info.title}

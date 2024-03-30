@@ -22,7 +22,7 @@ export const CarFirts = () => {
           </span>
         </p>
       </div>
-      <p className="w-[320px] h-[20px] text-center mx-auto text-[#363C52] my-10 text-lg animate-fade animate-once animate-duration-1000 animate-delay-[2000ms]">
+      <p className="w-[320px] h-[20px] text-center mx-auto text-[#363C52] my-10 text-lg animate-fade animate-once animate-duration-1000 animate-delay-[2000ms] ">
         ¿Qué <span className="font-bold">crédito te interesa</span>?
       </p>
     </>

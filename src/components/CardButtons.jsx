@@ -14,7 +14,7 @@ const CardButtons = ({
     }
     setModalVisible(false);
   };
-
+  console.log(colorText);
   return (
     <div className=" shadow-[-8px_-8px__16px_rgb(rgba(0,122,248,0.16))] shadow-[#4676C31C] rounded-[32px]  drop-shadow-[-8px_-8px__16px_rgb(rgba(0,122,248,0.16))]">
       <button

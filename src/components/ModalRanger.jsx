@@ -69,7 +69,7 @@ const ModalRanger = ({
 
   return (
     <>
-      <section className="modal fixed  bg-slate-500/70  z-50  w-full  h-full top-0 left-0 flex items-center justify-center animate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out">
+      <section className="modal fixed  bg-slate-500/70  z-50  w-screen  h-sreen top-0 left-0 flex items-center justify-center animate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out">
         <article
           className="my-4 w-[320px] h-auto  rounded-[40px]     gradient-text-shadow drop-shadow-[-8px_-8px_-16px_6px_rgba(255, 255, 255, 1)] px-5 pt-7 pb-5
          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-[#F8F9FF] bg-opacity-[100%] box-border  flex-col justify-center text-center gap-[1px]  tracking-wide  gradient-bg-shadow leading-tight overflow-hidden relative  nimate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out  "
@@ -88,22 +88,23 @@ const ModalRanger = ({
               setRanger={setRangerMonths}
             />
           </div>
-          <div className="w-fullflex flex-row items-center justify-center mt-8 text-center container-static-data ">
-            <h2 className="font-bold h-full text-[36px] mb-[4px] tracking-tight ">
+
+          <div className="w-full flex flex-wrap items-center justify-center mt-8 text-center container-static-data gap-2">
+            <h2 className="font-bold h-full text-[40px] tracking-tight ">
               ${pagomensual},<span className="text-[18px]">00</span>
             </h2>
             <h4 className="text-[#00B0F4] text-[16px] tracking-tighterx  font-semibold text-center">
               Cuota mensual aproximada
             </h4>
-
-            <p className="h-[68px]  px-7 w-[280px] mt-4 mb-6 font-semibold tracking-tighter text-[#818CB4] text-center leading-relaxed ">
+            <p className="h-[68px]  px-7 w-[280px]  mb-6 font-semibold tracking-tighter text-[#818CB4] text-center leading-relaxed ">
               Esta simulación es un aproximado calculado con una tasa del{" "}
               <span className="font-bold">00.00% E.A</span>
             </p>
           </div>
+
           <div className="container-button grid gap-4">
             <CardButtons
-              colorText={"[#FFFFFF]"}
+              colorText={"white"}
               bgfrom={"[#05BCFD]"}
               bgto={"[#0599FB]"}
               title={"¡Lo quiero! "}
