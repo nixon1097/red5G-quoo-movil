@@ -11,11 +11,11 @@ function App() {
     <>
       <Header />
 
-      <main className="mx-auto grid  grid-flow-row justify-center items-center text-center mt-0">
+      <section className="mx-auto grid  grid-flow-row justify-center items-center text-center mt-0">
         {/* logo  */}
         <CarFirts />
         <Targets info={infons} infos={infos} />
-      </main>
+      </section>
     </>
   );
 }

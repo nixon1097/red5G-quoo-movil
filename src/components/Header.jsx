@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <header className=" relative">
+      <header className=" relative w-[365px]">
         <div className=" mb-5">
           <img
             src="./images/fondoheader.gif"

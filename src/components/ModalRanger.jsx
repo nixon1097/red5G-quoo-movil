@@ -69,7 +69,7 @@ const ModalRanger = ({
 
   return (
     <>
-      <section className="modal fixed  bg-slate-500/70  z-50  w-screen  h-screen top-0 left-0 flex items-center justify-center animate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out">
+      <section className="modal fixed  bg-slate-500/70  z-50  w-screen  h-full top-0 left-0 flex items-center justify-center animate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out">
         <article
           className="my-4 w-[320px] h-auto  rounded-[40px]     gradient-text-shadow drop-shadow-[-8px_-8px_-16px_6px_rgba(255, 255, 255, 1)] px-5 pt-7 pb-5
          shadow-[8px_8px_16px_6px] shadow-[#4676C31C]  bg-[#F8F9FF] bg-opacity-[100%] box-border  flex-col justify-center text-center gap-[1px]  tracking-wide  gradient-bg-shadow leading-tight overflow-hidden relative  nimate-fade animate-delay-100 animate-ease-in  transform transition-transform duration-300 ease-in-out  "
@@ -108,7 +108,6 @@ const ModalRanger = ({
               bgfrom={"[#05BCFD]"}
               bgto={"[#0599FB]"}
               title={"¡Lo quiero! "}
-              setOpenModalForm={setOpenModalForm}
               setModalVisible={setModalVisible}
               onClick={handleButtonClick}
             />
