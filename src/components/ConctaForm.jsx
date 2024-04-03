@@ -33,12 +33,13 @@ const validationsForm = (form) => {
     errors.phone = "El Campo telefono es requerido";
   } else if (!/^\d+$/.test(form.phone.trim())) {
     errors.phone = "Solo se permiten números";
-  } else if (after300Number > 300 && after300Number > 399) {
+  } else if (after300Number < 300 || after300Number > 399) {
     // Verificar si el número es mayor que "300"
     errors.phone = "El número telefónico debe comenzar con '300'";
   } else if (!numberThen.test(form.phone.trim())) {
     errors.phone = "Esto no es un numero telefonico Valido ";
   }
+  console.log(after300Number);
 
   return errors;
 };
